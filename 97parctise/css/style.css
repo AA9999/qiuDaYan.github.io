@@ -79,11 +79,13 @@ h1 {
 
 }
 .wenzi p {
+  height: 200px;
     clear: both;
     font-size: 15px;
     font-family: "微软雅黑";
     text-indent: 2em;
     color: white;
+    overflow: scroll;
 }
 .go-top {
     width: 60px;
@@ -110,10 +112,11 @@ h1 {
 
 .footer {
     width: 100%;
+    /*font-size-adjust: yes;*/
     height: 20px;
     color: #fff;
     background-color: #000;
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
 }
