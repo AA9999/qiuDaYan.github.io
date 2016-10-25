@@ -1,11 +1,23 @@
-
 <!DOCTYPE html>
 <html>
+<!--
+                              /$$ /$$                           /$$                 /$$ /$$  /$$$$$$
+                          | $$|__/                          |__/                | $$|__/ /$$__  $$
+  /$$$$$$$  /$$$$$$   /$$$$$$$ /$$ /$$$$$$$   /$$$$$$        /$$  /$$$$$$$      | $$ /$$| $$  \__//$$$$$$
+ /$$_____/ /$$__  $$ /$$__  $$| $$| $$__  $$ /$$__  $$      | $$ /$$_____/      | $$| $$| $$$$   /$$__  $$
+| $$      | $$  \ $$| $$  | $$| $$| $$  \ $$| $$  \ $$      | $$|  $$$$$$       | $$| $$| $$_/  | $$$$$$$$
+| $$      | $$  | $$| $$  | $$| $$| $$  | $$| $$  | $$      | $$ \____  $$      | $$| $$| $$    | $$_____/
+|  $$$$$$$|  $$$$$$/|  $$$$$$$| $$| $$  | $$|  $$$$$$$      | $$ /$$$$$$$/      | $$| $$| $$    |  $$$$$$$
+ \_______/ \______/  \_______/|__/|__/  |__/ \____  $$      |__/|_______/       |__/|__/|__/     \_______/
+                                             /$$  \ $$
+                                            |  $$$$$$/
+                                             \______/
+ -->
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-	<title>关于 我</title>
+	<title>唐晨的简历</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
 
@@ -19,10 +31,12 @@
 		<div class="section">
 			<nav class="nav" role="navigation">
 				<ul>
-					<li class="nav-about fade fade1"><a href="#about">关于</a></li>
+					<li class="nav-about fade fade1"><a href="#about">介绍</a></li>
 					<li class="nav-works fade fade4"><a href="#works">作品</a></li>
-					<li class="fade back-home"><a href="../first.html">首页</a></li>
-					<li class="nav-skill fade fade2"><a href="#skill">能力</a></li>
+					<li class="fade back-home">
+						<a href="#top"></a>
+					</li>
+					<li class="nav-skill fade fade2"><a href="#skill">经历&技能</a></li>
 					<li class="nav-contact fade fade3"><a href="#contact">联系</a></li>
 				</ul>
 			</nav>
@@ -30,167 +44,195 @@
 		<div class="nav-bg"></div>
 	</div>
 	<div class="home-bg">
-		<img src="images/home-bg.jpg" alt="" width="1000" height="667">
+		<img src="images/bg.jpg" alt="" width="1000" height="667">
 	</div>
 	<div class="section-wrap section-fristpage" data-slide="1">
 		<div class="section">
 			<div class="section-content">
-				<p class="fade fade1">Hi，我是 唐晨</p>
-				<p class="fade fade2">欢迎光临我的社区！</p>
-				<p class="fade fade3">想了解更多，往下滚动哦 ^_^</p>
+				<a href="http://www.weibo.com/u/3891516876"><img src="" alt="" /></a>
+				<p class="fade fade1">Hi，我是 唐晨 一名前端攻城狮</p>
+				<p class="fade fade2">热爱前端 , 醉心框架</p>
+				<p class="fade fade3">TEL: 18305172762</p>
 			</div>
 			<a class="button2 scroll-tip fade fade4" data-slide="3" title="">向下滚动</a>
 		</div>
 	</div>
+	<!--这里是我的简介 -->
 	<div id="about" data-slide="2" data-stellar-background-ratio="0.3" class="section-wrap section-about">
 		<div class="section">
 			<div class="about-content clearfix section-content">
-				<div class="introli">
-					<span class="left_icon"><img class="bio-text bio-icon-1" src="images/bio-icon-1.png" data-stellar-ratio="0.7" ></span>
-					<span class="right_content "><img class="bio-text bio-text-1" src="images/bio-text-1.png" data-stellar-ratio="0.7" ></span>
-				</div>
-				<div class="introli">
-					<span class="left_icon"><img class="bio-text bio-icon-2" src="images/bio-icon-2.png" data-stellar-ratio="0.7" ></span>
-					<span class="right_content"><img class="bio-text bio-text-2" src="images/bio-text-2.png" data-stellar-ratio="0.7" ></span>
-				</div>
-				<div class="introli">
-					<span class="left_icon"><img class="bio-text bio-icon-3" src="images/bio-icon-3.png" data-stellar-ratio="0.7" ></span>
-					<span class="right_content"><img class="bio-text bio-text-3" src="images/bio-text-3.png" data-stellar-ratio="0.7" ></span>
-				</div>
+				<h1>自我介绍</h1>
 
-			</div>
-
-		</div>
-		<a class="button2 dark-button2 scroll-tip" style="background-position:0 -60px;" data-slide="3" title=""></a>
-	</div>
-	<div id="works" class="section-wrap section-works" data-slide="3">
-		<div class="section">
-			<div class="works-content section-content">
-				<h1>前端作品</h1>
-				<div class="works-list clearfix">
-					<div class="works-item first fade fade1">
-						<a href="#" target="_blank">
-							<img src="images/works/yizaojia.jpg" alt="" width="300" height="180">
-							<div class="work-info">
-								<h2>喜欢我做的东西就关注我把！</h2>
-								<p><strong>开发时间</strong>：2014年3月<br>
-									<strong>工作详情</strong>：框架设计及前端制作。</p>
-							</div>
-						</a>
+				<div id="about_list_content">
+					<div class="about_list" id="about_list1">
+						<div class="about_list_eg" id="about_en_edu">education</div>
+						<div class="about_list_cn" id="about_cn_edu">学历
+							<p>本科</p>
+						</div>
 					</div>
-					<div class="works-item fade fade2">
-						<a href="#/" target="_blank">
-							<img src="images/works/91zaojia.jpg" alt="" width="300" height="180">
-							<div class="work-info">
-								<h2>喜欢我做的东西就关注我把！</h2>
-								<p><strong>开发时间</strong>：2013年10月<br>
-									<strong>工作详情</strong>：页面设计及前端制作。</p>
-							</div>
-						</a>
+					<div class="about_list">
+						<div class="about_list_eg" id="about_en_age">age</div>
+						<div class="about_list_cn" id="about_cn_age">年龄
+							<p>23岁</p>
+						</div>
 					</div>
-					<div class="works-item fade fade3">
-						<a href="#/" target="_blank">
-							<img src="images/works/wenku.jpg" alt="" width="300" height="180">
-							<div class="work-info">
-								<h2>喜欢我做的东西就关注我把！</h2>
-								<p><strong>开发时间</strong>：2013年12月<br>
-									<strong>工作详情</strong>：页面设计及前端绑定和制作。</p>
-							</div>
-						</a>
+					<div class="about_list">
+						<div class="about_list_eg" id="about_en_loc">location</div>
+						<div class="about_list_cn" id="about_cn_loc">坐标
+							<p>南京</p>
+						</div>
 					</div>
-					<div class="works-item first fade fade4">
-						<a href="#" target="_blank">
-							<img src="images/works/shinedeliver.jpg" alt="" width="300" height="180">
-							<div class="work-info">
-								<h2>喜欢我做的东西就关注我把！</h2>
-								<p><strong>开发时间</strong>：2012年11月<br>
-									<strong>工作详情</strong>：独立开发和制作。</p>
-							</div>
-						</a>
+					<div class="about_list">
+						<div class="about_list_eg" id="about_en_sta">status</div>
+						<div class="about_list_cn" id="about_cn_sta">求职
+							<p>在职</p>
+						</div>
 					</div>
-					<div class="works-item fade fade2">
-						<a>
-							<img src="images/works/wxshop.jpg" alt="" width="300" height="180">
-							<div class="work-info">
-								<h2>喜欢我做的东西就关注我把！</h2>
-								<p><strong>开发时间</strong>：2014年05月<br>
-									<strong>工作详情</strong>：前端页面开发及绑定。</p>
-							</div>
-						</a>
-					</div>
+					<div id="about_info" style="width: 800px; margin-top: 0px; margin-bottom: 0px;">
+						<p style="bottom: 0px;">自学计算机技术，在校期间参与了项目开发</p>
+						<p style="bottom: 0px;">热爱编程,有轻微的代码洁癖、对于新技术有强烈的追求，经常游走于各种技术论坛</p>
+						<p style="bottom: 0px;">喜欢<b>分享</b>,经常会分享到自己的 GitHub 微信公众号 关注新技术动态 做一些开源作品</p>
+					</div </div>
 				</div>
-				<a class="more-link" href="page/product">查看更多</a>
-			</div>
-			<a class="button2 scroll-tip fade fade4" data-slide="4" title="">向下滚动</a>
-		</div>
-	</div>
-	<div id="skill" class="section-wrap section-skill" data-slide="4">
-		<div class="section">
-			<div class="skill-content section-content">
-				<h1>相关技能</h1>
-				<ul>
-					<li class="fade fade1">熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，熟练手写符合 W3C 标准的结构和代码。</li>
-					<li class="fade fade3">对 可用性、可访问性、前端性能优化、最优实践 等有一定的了解和实践。</li>
-					<li class="fade fade2">对 HTML5 和 CSS3 有一定了解。</li>
-					<li class="fade fade4">熟练掌握 ST2 、Emmet、Sass 等等前端开发和团队协作工具。</li>
-					<li class="fade fade4">熟练掌握 jQuery，实现日常需要的交互效果。</li>
-					<li class="fade fade3">熟悉EXTJS，Nodejs，MySQl，有一定 PHP 后端相关知识。</li>
-					<li class="fade fade2">了解 Ajax 工作原理和实现方法。</li>
-					<li class="fade fade2">对前端canvas，svg有一定了解。</li>
-					<li class="fade fade1">了解手机前端开发jquerymobile，zeptojs及angularjs等。</li>
-					<li class="fade fade4">服务器使用阿里云ECS，对 Linux 有一定了解。</li>
-					<li class="fade fade2">喜欢接触新事物，有一定的自学能力。</li>
-				</ul>
 			</div>
 		</div>
-		<a class="button2 scroll-tip fade fade4" data-slide="5" title="">向下滚动</a>
-	</div>
-	<div id="contact" class="section-wrap section-contact" data-slide="5">
-		<div class="section">
-			<div class="contact-content clearfix section-content">
-				<h1>联系本人</h1>
-				<div class="left">
-					<div class="contact-ways fade fade1">
-						<h2>社交网络</h2>
-						<ul>
-							<li>邮箱：tangchenaqy@163.com</li>
-							<li>Q Q ：1131815603</li>
-							<li>知乎：</li>
-							<li>微博：</li>
-							<li>Github：qiuDanYan</li>
-						</ul>
+		<!-- 这里是我的作品 -->
+		<div id="works" class="section-wrap section-works" data-slide="3">
+			<div class="section">
+				<div class="works-content section-content">
+					<h1>前端作品</h1>
+					<div class="works-list clearfix">
+						<div class="works-item first fade fade1">
+							<a href="https://qiudayan.github.io/test/919practise/919test/" target="_blank">
+								<img src="images/works/xiangmu1.png" alt="" width="300" height="180">
+								<div class="work-info">
+									<h2>第一份兼职切图</h2>
+									<p><strong>开发时间</strong>：2015年3月<br>
+										<strong>工作详情</strong>：前端页面设计。</p>
+								</div>
+							</a>
+						</div>
+						<div class="works-item fade fade2">
+							<a href="#/" target="_blank">
+								<img src="images/works/xiangmu2.png" alt="" width="300" height="180">
+								<div class="work-info">
+									<h2>HTML5音乐播放器</h2>
+									<p><strong>开发时间</strong>：2015年6月<br>
+										<strong>工作详情</strong>：js交互</p>
+								</div>
+							</a>
+						</div>
+						<div class="works-item fade fade3">
+							<a href="#/" target="_blank">
+								<img src="images/works/wenku.jpg" alt="" width="300" height="180">
+								<div class="work-info">
+									<h2>喜欢我做的东西就关注我把！</h2>
+									<p><strong>开发时间</strong>：2013年12月<br>
+										<strong>工作详情</strong>：页面设计及前端绑定和制作。</p>
+								</div>
+							</a>
+						</div>
+						<div class="works-item first fade fade4">
+							<a href="#" target="_blank">
+								<img src="images/works/shinedeliver.jpg" alt="" width="300" height="180">
+								<div class="work-info">
+									<h2>喜欢我做的东西就关注我把！</h2>
+									<p><strong>开发时间</strong>：2012年11月<br>
+										<strong>工作详情</strong>：独立开发和制作。</p>
+								</div>
+							</a>
+						</div>
+						<div class="works-item fade fade2">
+							<a>
+								<img src="images/works/wxshop.jpg" alt="" width="300" height="180">
+								<div class="work-info">
+									<h2>喜欢我做的东西就关注我把！</h2>
+									<p><strong>开发时间</strong>：2014年05月<br>
+										<strong>工作详情</strong>：前端页面开发及绑定。</p>
+								</div>
+							</a>
+						</div>
 					</div>
-					<div class="contact-info fade fade2">
-						<p>虽然有社交网络，但是平时上的比较少，很多时候是只看不发！不过你可以关注我哦！</p>
-					</div>
+					<a class="more-link">查看更多</a>
 				</div>
-				<div class="right fade fade3">
-					<h2>项目外包</h2>
-					<p>如果你有前端相关的需求，可以联系我做外包，目前我主要做：</p>
+				<a class="button2 scroll-tip fade fade4" data-slide="4" title="">向下滚动</a>
+			</div>
+		</div>
+		<div id="skill" class="section-wrap section-skill" data-slide="4">
+			<div class="section">
+				<div class="skill-content section-content">
+					<h1>相关技能</h1>
 					<ul>
-						<li>网站布局设计及制作，网站页面制作。</li>
-						<li>根据需求，对网站前端进行修改和优化，或者转响应式处理。</li>
-						<li>企业网站建设及相关功能开发。</li>
-						<li>对于网站建设项目，我也有一些同行朋友可以推荐，也欢迎咨询！</li>
+						<li class="fade fade1">熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，熟练手写符合 W3C 标准的结构和代码。</li>
+						<li class="fade fade3">对 可用性、可访问性、前端性能优化、最优实践 等有一定的了解和实践。</li>
+						<li class="fade fade2">对 HTML5 和 CSS3 有一定了解。</li>
+						<li class="fade fade4">熟练掌握 ST2 、Emmet、Sass 等等前端开发和团队协作工具。</li>
+						<li class="fade fade4">熟练掌握 jQuery，实现日常需要的交互效果。</li>
+						<li class="fade fade3">熟悉EXTJS，Nodejs，MySQl，有一定 PHP 后端相关知识。</li>
+						<li class="fade fade2">了解 Ajax 工作原理和实现方法。</li>
+						<li class="fade fade2">对前端canvas，svg有一定了解。</li>
+						<li class="fade fade1">了解手机前端开发jquerymobile，zeptojs及angularjs等。</li>
+						<li class="fade fade4">服务器使用阿里云ECS，对 Linux 有一定了解。</li>
+						<li class="fade fade2">喜欢接触新事物，有一定的自学能力。</li>
 					</ul>
-					<p><strong>适用浏览器</strong>：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
 				</div>
 			</div>
+			<a class="button2 scroll-tip fade fade4" data-slide="5" title="">向下滚动</a>
 		</div>
-		<a class="button2 button2-2-top scroll-tip" id="gototops" data-slide="1" href="#top" style="background-position: -60px 0;width:80px;height:80px;" title=""></a>
-	</div>
-
-	<div class="overlay"></div>
-	<div class="state-indicator"></div>
-
-	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/global.js"></script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/js.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<div style="text-align:center;">
-		<!-- <p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p> -->
-	</div>
+		<!--这里是联系我的  -->
+		<div id="contact" class="section-wrap section-contact" data-slide="5">
+			<div class="section">
+				<div class="contact-content clearfix section-content">
+					<h1>联系本人</h1>
+					<div class="left">
+						<div class="contact-ways fade fade1">
+							<h2>社交网络</h2>
+							<ul>
+								<div id="Layer1" style="display: none; position: absolute; z-index: 150px;">
+								</div>
+								<a href="mailto:tangchenaqy@gmail.com">
+									<li style="font-size:18px;"><img src="images/wangyi.png" alt="" style="height:20px; width:20x; border-radius:10px;"> 邮箱：tangchenaqy@163.com</li>
+									<a>
+										<a href="https://github.com/qiuDaYan">
+											<li style="font-size:18px;"><img src="images/github.png" alt="" style="height:20px; width:20x; border-radius:10px;"> Github：qiuDanYan</li>
+										</a>
+										<a href="javascript:void(0)" onmouseout="hiddenPic();" onmousemove="showPic(event,'images/erweima.jpg');">
+											<li style="font-size:18px;"><img src="images/1956e9e3afe5091.jpg" alt="" style="height:20px; width:20x; border-radius:10px;"> 微信公众号: 南京前端分享</li>
+										</a>
+										<li style="font-size:18px;"><img src="images/qq.jpg" alt="" style="height:20px; width:20x; border-radius:10px;"> QQ ：1131815603</li>
+										<li style="font-size:18px;"><img src="images/zhihu.jpg" alt="" style="height:20px; width:20x; border-radius:10px;"> 知乎: 秋大艳</li>
+										<a href="http://www.weibo.com/u/3891516876">
+											<li style="font-size:18px;"><img src="images/sina.jpg" alt="" style="height:20px; width:20x; border-radius:10px;"> 微博：深晨如海的幸福</li>
+										</a>
+							</ul>
+						</div>
+						<div class="contact-info fade fade2">
+							<p style="font-size:24px;">热爱代码 热爱分享 </p>
+						</div>
+					</div>
+					<div class="right">
+						<div class="contact-ways fade fade1">
+							<img style="height:200px; " src="images/qq.jpg" alt="">
+						</div>
+						<div class="contact-info fade fade2">
+							<a href="tel:18305172762">
+								<p style="font-size:24px;">18305172762</p>
+							</a>
+							<p style="font-size:24px;">CALL ME NEVER REGRET </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="button2 button2-2-top scroll-tip" id="gototops" data-slide="1" href="#top" style="background-position: -60px 0;width:80px;height:80px;" title=""></a>
+		</div>
+		<div class="overlay"></div>
+		<div class="state-indicator"></div>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/global.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/js.js"></script>
+		<script src="js/test.js" charset="utf-8"></script>
+		<script src="js/jquery.stellar.min.js"></script>
 </body>
 
 </html>

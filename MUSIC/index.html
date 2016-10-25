@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>音乐播放器</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <!--主体-->
+    <div class="external">
+        <!--顶部-->
+        <div class="top">
+            <h2 id="underway"></h2>
+            <div class="music_title-1">
+                <h2 id="music_title">
+    </h2>
+            </div>
+        </div>
+        <!--中间内容-->
+        <div class="middles" id="middle">
+            <!--中间滑动块-->
+            <div class="slide " ontouchstart="touch(event)" ontouchend="touch(event)">
+                <div class="l_lyric">
+                    <h1>歌词列表</h1>
+                    <div class="scrollbar">
+                        <ul id="lrc">
+                        </ul>
+                    </div>
+                </div>
+                <!--中间旋转块-->
+                <div class="head_portrait ">
+                </div>
+                <div class="r_song">
+                    <h1>歌曲列表<samp></samp></h1>
+                    <div class="scrollbar">
+                        <ul id="music_list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <dl>
+                <dt id="l">
+          </dt>
+                <dt id="z">
+          </dt>
+                <dt id="r">
+          </dt>
+            </dl>
+        </div>
+        <!--底部-->
+
+        <div class="bottom">
+            <!--进度条\时间-->
+            <div class="progress_bar">
+                <div class="l font_size" id="current_time" style="color:#B2DFEE">
+                    -:-
+                </div>
+                <progress id="progress">
+            </progress>
+                <div class="r font_size" id="duration" style="color:#B2DFEE">
+                    -:-
+                </div>
+            </div>
+            <audio id="music_player">
+    			你的浏览器暂不支持audio元素
+		</audio>
+            <!--按钮块-->
+            <div class="button">
+                <!--上一曲-->
+                <div id="pre" class="move_previous">
+                </div>
+                <!--播放\暂停-->
+                <div id="play" class="play ">
+                </div>
+                <!--下一曲-->
+                <div id="next" class="move_next">
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>
