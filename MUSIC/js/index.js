@@ -46,7 +46,7 @@ function touch(event) {
                     status = 0;
                     $(".slide").animate({
                         left: '-100%'
-                    })
+                    });
                     $('#z').css("background", "#AEEEEE");
                     $("#l").css("background", "");
                     $("#r").css("background", "");
